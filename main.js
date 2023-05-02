@@ -68,13 +68,13 @@
 
 //6 задача
 
-// let arr1 = [1, true, false, undefined];
-// let arr2 = ['Sasha', 'Alina', false, undefined];
+let arr1 = [1, true, false, undefined];
+let arr2 = ['Sasha', 'Alina', false, undefined];
 
-// for (let i = 0; i < arr2.length; i++) {
-//   if (arr2[i] !== undefined) {
-//     arr1[i] = arr2[i];
-//   }
-// }
+for (let i = 0; i < arr2.length; i++) {
+  if (arr2[i] !== undefined) {
+    arr1[i] = arr2[i];
+  }
+}
 
-// console.log(arr1);
+console.log(arr1);
